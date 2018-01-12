@@ -16,7 +16,7 @@ public abstract class TestObservable{
 	
 	public void test_notifyObservers(){
 		for (TestObserver observer : list) {
-			observer.stub_update(this,null);
+			observer.test_update(this,null);
 		}
 	}
 }
