@@ -1,0 +1,15 @@
+before_script:
+
+  - apt-get update
+
+  - apt-get -y install ant
+
+stages:
+  - build
+ 
+build:
+  stage: build
+  image: openjdk:8-jdk
+  script:
+    - ant clean
+    - ant build

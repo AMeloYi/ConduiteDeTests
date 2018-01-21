@@ -1,4 +1,4 @@
-package test;
+package cdt;
 
 public class TestMain {
 	public static void main(String[] args) {

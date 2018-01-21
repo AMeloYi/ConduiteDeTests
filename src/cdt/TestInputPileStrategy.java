@@ -1,4 +1,4 @@
-package test;
+package cdt;
 
 public abstract class TestInputPileStrategy {
 	public void test_push(int entier){}

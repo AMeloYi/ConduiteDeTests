@@ -1,4 +1,4 @@
-package test;
+package cdt;
 
 public class TestKbdInputPile extends TestInputPileStrategy{
 	@Override

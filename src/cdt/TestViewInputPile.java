@@ -1,4 +1,4 @@
-package test;
+package cdt;
 
 public class TestViewInputPile extends TestInputPileStrategy{
 	@Override
